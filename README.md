@@ -5,7 +5,7 @@ With this python library you can compute and display progress in loops that take
 ## import
 from Percentile import Progress
 ## create instance
-first parameter is range or the number of iterations,second is updating step
+first parameter is range or the number of iterations,second is updating step.
 for example below code creates an instance with 12000 iterations .the progress is updated every 5% and displayed graphically.
 also if you specify cls = false it doesn't clear at each update.
 
@@ -17,3 +17,6 @@ for i in range(12000):
 	# do something
   
 	prog.compute(i)
+
+# Output
+|------------------  | 90.0 %
